@@ -30,8 +30,8 @@ function countDeletions(firstString, secondString) {
             if (firstArray[i] === secondArray[j]) {
                 common = true;
 
-                // this is a necessary 'null' character to account for multiple letters
-                secondArray[j] = 0;
+                // to account for multiple letters
+                secondArray[j] = null;
 
                 // if a common letter is found, effectively break this for loop
                 j = secondArray.length
