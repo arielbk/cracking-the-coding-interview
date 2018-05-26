@@ -1,3 +1,6 @@
+// https://www.hackerrank.com/challenges/ctci-bubble-sort/problem
+// bubble sorts a list of numbers of length n and prints how many swaps it took, the first and the last element
+
 function main() {
   var n = parseInt(readLine());
   a = readLine().split(' ');

@@ -1,4 +1,4 @@
-// Heh, I realised that much of the functionality is taken care of already
+// https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem
 // a is an array passed in, d is the number of times to rotate the array
 // returns a rotated array
 

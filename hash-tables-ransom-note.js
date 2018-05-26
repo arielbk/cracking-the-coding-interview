@@ -42,13 +42,11 @@ function main() {
       i = n;
       console.log('No');
 
-      // and end the function
+      // end the function
       return 0;
     }
   }
 
   // match must be be true
   console.log('Yes');
-
-  return 0;
 }

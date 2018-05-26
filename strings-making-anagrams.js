@@ -1,6 +1,5 @@
 // https://www.hackerrank.com/challenges/ctci-making-anagrams/problem
-// there are a couple of tricks here ... I need to watch out for multiple letters
-// (and related to this) JavaScript arrays are defined by reference...
+// trick: account for multiple letters and remember that arrays are defined by reference
 
 function main() {
     const a = readLine();
